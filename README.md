@@ -10,7 +10,9 @@ CharacterAlignerScaler 是一個用於對齊和縮放字符圖像的工具。它
 ## 安裝
 
 1. 克隆這個專案：
-```git clone https://github.com/TaylorNTUT/CharacterAlignerScaler.git```
+```
+git clone https://github.com/TaylorNTUT/CharacterAlignerScaler.git
+```
 
 2. 切換到專案目錄：
 ```cd CharacterAlignerScaler```
@@ -20,7 +22,7 @@ CharacterAlignerScaler 是一個用於對齊和縮放字符圖像的工具。它
 source venv/bin/activate # 在 Windows 上使用 venv\Scripts\activate```
 
 4. 安裝所需的依賴項：
-```pip install -r requirements.txt```
+```pip install -r requirements.txt
 
 
 ## 使用方法
