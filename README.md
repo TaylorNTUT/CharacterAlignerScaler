@@ -15,7 +15,7 @@ CharacterAlignerScaler 是一個用於對齊和縮放字符圖像的工具。它
 原本會長這樣：
 <img width="936" alt="image" src="https://user-images.githubusercontent.com/111958211/236994859-f0ee8ba7-8422-46df-a531-10b6cf5eeba3.png">
 
-經過此程式碼處理後，變成這樣：
+經過此程式碼處理後，變成這樣(字體大小設定一致)：
 <img width="917" alt="image" src="https://user-images.githubusercontent.com/111958211/236994963-c32d6eb4-af0c-4a49-8dc3-623ac7d96e83.png">
 
 因為現在是每一個字都抓到它的邊框，並且統一放大到300x300的png，如果抓到的邊框小，字體會放大許多，也就會讓字跡變粗。所以目前的結果還是有很多需要改善的地方，所以如果大家有更好的想法或是程式設計，歡迎和我或是助教討論
