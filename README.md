@@ -62,9 +62,9 @@ display_images(before_folder, after_folder, 10) # 最後一個參數表示要展
 
 ## 示例
 
-要對 `input_images` 文件夾中的圖像進行對齊和縮放，並將結果保存到 `output_images` 文件夾，您可以使用以下命令：
+要對 `1_138` 文件夾中的圖像進行對齊和縮放，並將結果保存到 `1_138_after` 文件夾，您可以使用以下命令：
 ```
-python align_and_scale_chr.py -f input_images -o output_images -S -A
+python align_and_scale_chr.py -f 1_138 -o 1_138_after -S -A
 ```
 
 
