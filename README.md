@@ -25,7 +25,7 @@ cd CharacterAlignerScaler
 python -m venv venv
 source venv/bin/activate 
 ```
-在 Windows 上使用 venv\Scripts\activate
+* 在 Windows 上使用 venv\Scripts\activate
 
 4. 安裝所需的依賴項：
 ```
