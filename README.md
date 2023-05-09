@@ -21,7 +21,8 @@ cd CharacterAlignerScaler
 ```
 
 3. 創建並激活虛擬環境（可選）：
-```python -m venv venv
+```
+python -m venv venv
 source venv/bin/activate # 在 Windows 上使用 venv\Scripts\activate
 ```
 
