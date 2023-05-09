@@ -40,7 +40,7 @@ pip install -r requirements.txt
 python align_and_scale_chr.py -f INPUT_FOLDER -o OUTPUT_FOLDER [-S] [-s SCALE_PERCENTAGE] [-m MIN_SIZE] [-A]
 ```
 - `-f`, `--input-folder`: 包含 .png 文件的輸入文件夾
-- `-o`, `--output-folder`: 處理後圖像的輸出文件夾
+- `-o`, `--output-folder`: 處理後圖像的輸出文件夾(如果沒有會建一個)
 - `-S`, `--scale`: 執行縮放操作
 - `-s`, `--scale-percentage`: 縮放操作的縮放百分比（默認值：95）
 - `-m`, `--min-size`: 最小邊界框尺寸（默認值：50）
