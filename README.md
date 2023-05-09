@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ### align_and_scale_chr.py
 
-把要處理的資料夾放到CharacterAlignerScaler這個資料夾下
+* 把要處理的資料夾放到CharacterAlignerScaler這個資料夾下
 
 執行以下命令來使用 CharacterAlignerScaler：
 ```
