@@ -43,7 +43,7 @@ python align_and_scale_chr.py -f INPUT_FOLDER -o OUTPUT_FOLDER [-S] [-s SCALE_PE
 - `-o`, `--output-folder`: 處理後圖像的輸出文件夾(如果沒有會建一個)
 - `-S`, `--scale`: 執行縮放操作
 - `-s`, `--scale-percentage`: 縮放操作的縮放百分比（默認值：95）
-- `-m`, `--min-size`: 最小邊界框尺寸（默認值：50）
+- `-m`, `--min-size`: 最小邊界框尺寸，也就是如果opencv抓到低於這個尺寸的邊框，不處理（默認值：50）
 - `-A`, `--align`: 執行對齊操作
 
 
@@ -65,6 +65,11 @@ display_images(before_folder, after_folder, 10) # 最後一個參數表示要展
 要對 `1_138` 文件夾中的圖像進行對齊和縮放，並將結果保存到 `1_138_after` 文件夾，您可以使用以下命令：
 ```
 python align_and_scale_chr.py -f 1_138 -o 1_138_after -S -A
+```
+
+要對 `1_138` 文件夾中的圖像進行對齊和「縮放操作的縮放百分比：90」和「最小邊界框尺寸：60」，並將結果保存到 `1_138_after` 文件夾，您可以使用以下命令：
+```
+python align_and_scale_chr.py -f 1_138 -o 1_138_after -S -A -s 90 -m 60
 ```
 
 
