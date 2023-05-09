@@ -72,6 +72,11 @@ python align_and_scale_chr.py -f 1_138 -o 1_138_after -S -A
 python align_and_scale_chr.py -f 1_138 -o 1_138_after -S -A -s 90 -m 60
 ```
 
+要對 `1_138` 和 `1_138_after` 裡面的圖像隨機抽取10個做比較，並輸出比較的圖：
+```
+python compare.py
+```
+
 
 
 
