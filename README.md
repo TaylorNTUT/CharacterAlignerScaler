@@ -68,7 +68,7 @@ python align_and_scale_chr.py -f INPUT_FOLDER -o OUTPUT_FOLDER [-S] [-s SCALE_PE
 - `-o`, `--output-folder`: 處理後圖像的輸出文件夾(如果沒有會建一個)
 - `-S`, `--scale`: 執行縮放操作
 - `-s`, `--scale-percentage`: 縮放操作的縮放百分比（默認值：95）
-- `-m`, `--min-size`: 最小邊界框尺寸，也就是如果opencv抓到低於這個尺寸的邊框，不處理（默認值：50）
+- `-m`, `--min-size`: 最小邊界框尺寸百分比，也就是如果opencv抓到低於這個尺寸的邊框，不處理（默認值：50）
 - `-A`, `--align`: 執行對齊操作
 
 
