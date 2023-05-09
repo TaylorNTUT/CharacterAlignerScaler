@@ -54,8 +54,8 @@ python align_and_scale_chr.py -f INPUT_FOLDER -o OUTPUT_FOLDER [-S] [-s SCALE_PE
 注意：在運行顯示操作前後的字符圖像對比的程式碼片段之前，請確保已將 `before_folder` 和 `after_folder` 變量替換為實際的輸入和輸出文件夾名稱。
 
 ```python
-before_folder = "./1_138"  # 請將 "input_folder" 替換換成實際的輸入文件夾名稱
-after_folder = "1_138_after" # 請將 "output_folder" 替換成實際的輸出文件夾名稱
+before_folder = "./1_138"  # 請將 "./1_138" 替換換成實際的輸入文件夾名稱
+after_folder = "1_138_after" # 請將 "1_138_after" 替換成實際的輸出文件夾名稱
 display_images(before_folder, after_folder, 10) # 最後一個參數表示要展示的圖像對的數量
 ```
 
@@ -63,8 +63,9 @@ display_images(before_folder, after_folder, 10) # 最後一個參數表示要展
 ## 示例
 
 要對 `input_images` 文件夾中的圖像進行對齊和縮放，並將結果保存到 `output_images` 文件夾，您可以使用以下命令：
+```
 python align_and_scale_chr.py -f input_images -o output_images -S -A
-
+```
 
 
 
