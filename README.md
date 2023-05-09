@@ -33,6 +33,8 @@ pip install -r requirements.txt
 
 ## 使用方法
 
+### align_and_scale_chr.py
+
 執行以下命令來使用 CharacterAlignerScaler：
 ```
 python align_and_scale_chr.py -f INPUT_FOLDER -o OUTPUT_FOLDER [-S] [-s SCALE_PERCENTAGE] [-m MIN_SIZE] [-A]
@@ -45,9 +47,7 @@ python align_and_scale_chr.py -f INPUT_FOLDER -o OUTPUT_FOLDER [-S] [-s SCALE_PE
 - `-A`, `--align`: 執行對齊操作
 
 
-## compare.py
-
-### 顯示操作前後的字符圖像對比
+### compare.py (用來顯示操作前後的字符圖像對比)
 
 使用下面的程式碼片段來顯示對齊和縮放操作前後的字符圖像對比：
 
