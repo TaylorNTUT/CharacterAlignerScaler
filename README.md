@@ -15,8 +15,12 @@ CharacterAlignerScaler 是一個用於對齊和縮放字符圖像的工具。它
 原本會長這樣：
 <img width="936" alt="image" src="https://user-images.githubusercontent.com/111958211/236994859-f0ee8ba7-8422-46df-a531-10b6cf5eeba3.png">
 
-經過此程式碼處理後，變成這樣(字體大小設定一致)：
+經過此程式碼處理後，變成這樣(字體大小設定一致)，v1：
 <img width="917" alt="image" src="https://user-images.githubusercontent.com/111958211/236994963-c32d6eb4-af0c-4a49-8dc3-623ac7d96e83.png">
+
+v2：
+<img width="913" alt="image" src="https://github.com/TaylorNTUT/CharacterAlignerScaler/assets/111958211/0754cc08-088f-418c-89ef-ad0c69f9fcd2">
+
 
 來源：助教的pdf稿紙
 
